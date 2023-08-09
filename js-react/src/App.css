@@ -6,22 +6,34 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+body {
+  overflow: auto;
+  height: 900vh;
+}
+body {
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  font-family: 'Arial', sans-serif; /* Set the font family */
+  /* Add other custom styles as needed */
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ebebeb;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
