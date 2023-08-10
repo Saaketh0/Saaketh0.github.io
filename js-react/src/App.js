@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+
+
   return (
     <div className="App">
       <aside id="border" className="border js-fullheight" style={{ color: '#000000', fontSize: '16px', top: 0, left: 0, position: 'fixed', backgroundColor: "#d4d4d4", height: "100vh", width: "15%" }}>
@@ -36,11 +39,14 @@ function App() {
         </div>
       </aside>
 
-      <main style={{ marginLeft: "15%" }}>
-        <header className="App-header">
-          <p>
-            Saaketh Sodanaplli intro
-          </p>
+      <main style={{ marginLeft: "15%", fontFamily: 'Arial, sans-serif' }}>
+        <header className="App-header" style={{ backgroundImage: "url(/denis-kirichkov-PVQcdxcFxfQ-unsplash.jpg)"}}>
+          <h1 style={{fontSize:'100px', font:"roboto" }}>
+            Hi!
+          </h1>
+          <h2 style={{fontSize:'100px'}}>
+            I'm Saaketh
+          </h2>
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -54,7 +60,9 @@ function App() {
         <section id="Introduction">
           <h1>Introduction</h1>
           <p className="text-content">
-            Hello, my name is Saaketh Sodanapalli and I'm currently a sophomore at the University of Massachusetts Amherst majoring in Computer Engineering. I like to...
+            Hello and welcome to my website! My name is Saaketh Sodanapalli and I'm currently a sophomore at the University of Massachusetts Amherst majoring in Computer Engineering.
+            Other than coding, I like to workout a lot and am currently a part of my universities club swim team as well as read books, ranging from self-improvement books to sci-fi and fantasy.
+            Currently I'm 
           </p>
         </section>
 
