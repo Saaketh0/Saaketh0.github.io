@@ -1,15 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
 
-
-
   return (
     <div className="App">
-      <aside id="border" className="border js-fullheight" style={{ color: '#000000', fontSize: '16px', top: 0, left: 0, position: 'fixed', backgroundColor: "#d4d4d4", height: "100vh", width: "15%" }}>
+      <aside id="border" className="border js-fullheight" style={{fontSize: '16px', top: 0, left: 0, position: 'fixed', backgroundColor: "#d4d4d4", height: "100vh", width: "15%" }}>
         <div className='centerImage' style={{ padding: "20px" }}>
-          <img src={logo} className="App-logo" alt="logo" style={{ height: "100px", filter: 'brightness(0%)' }} />
+          <img src= "logo512.png" className = "App-logo" alt="" style={{ height: "100px", filter: 'brightness(100%)' }} />
           <h1>
             <p>
               Saaketh Sodanapalli
@@ -39,30 +36,22 @@ function App() {
         </div>
       </aside>
 
-      <main style={{ marginLeft: "15%", fontFamily: 'Arial, sans-serif' }}>
-        <header className="App-header" style={{ backgroundImage: "url(/denis-kirichkov-PVQcdxcFxfQ-unsplash.jpg)"}}>
-          <h1 style={{fontSize:'100px', font:"roboto" }}>
+      <main style={{ marginLeft: "15%", fontFamily: 'Arial, sans-serif'}}>
+        <header className="App-header" style={{ backgroundImage:"url(denis-kirichkov-PVQcdxcFxfQ-unsplash.jpg)",padding:"0px",backgroundSize:"cover"}}>
+          <h1 style={{fontSize:'100px', font:"roboto" ,marginLeft:"-50%",textAlign:"left"}}>
             Hi!
-          </h1>
-          <h2 style={{fontSize:'100px'}}>
+            <br></br>
             I'm Saaketh
-          </h2>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          </h1>
         </header>
 
-        <section id="Introduction">
-          <h1>Introduction</h1>
-          <p className="text-content">
+        <section id="Introduction" style={{  padding: "0px 100px 0px 100px" }}>
+          <h1 style={{fontSize:"50px", textAlign:"left"}}> Introduction </h1>
+          <p className="text-content" id='test1'>
             Hello and welcome to my website! My name is Saaketh Sodanapalli and I'm currently a sophomore at the University of Massachusetts Amherst majoring in Computer Engineering.
-            Other than coding, I like to workout a lot and am currently a part of my universities club swim team as well as read books, ranging from self-improvement books to sci-fi and fantasy.
-            Currently I'm 
+            Other than coding, I like to workout a lot and am currently a part of my universities club swim team as well as read books, ranging from self-improvement books to mystery.
+            While I study computer engineering to gain knowledge on both the software and hardware aspects of computers, I am predisposed towards the software aspect of them, hoping
+            expand my knowledge and skills solving real world problems.
           </p>
         </section>
 

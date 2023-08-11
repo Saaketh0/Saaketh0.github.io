@@ -9,12 +9,15 @@
 body {
   overflow: auto;
   height: 900vh;
+  padding: "0px 100px 0px 100px";
+  font-family: "Lobster";
 }
-body {
-  margin: 0; /* Remove default body margin */
-  padding: 0; /* Remove default body padding */
-  font-family: 'Arial', sans-serif; /* Set the font family */
-  /* Add other custom styles as needed */
+section {
+  font-family:"Lobster";
+}
+.text-content {
+  font-family: 'Ariel';
+  font-size: "500px";
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -30,6 +33,7 @@ html {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Lobster';
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -41,6 +45,9 @@ html {
 }
 
 @keyframes App-logo-spin {
+  0%   { color: red; }
+  50%  { color: yellow; }
+  100% { color: green; }
   from {
     transform: rotate(0deg);
   }
