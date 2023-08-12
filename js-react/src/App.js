@@ -70,11 +70,11 @@ function App() {
               Snake and Tetris
             </h3>
               <p> For my introduction to programming class, ECE 122, I was tasked with designing the games Snake and Tetris using python and tkinter to display the games</p>
+              <img scr="Snake_game.png" alt="" />
             <h3>
               This website!
             </h3>
               <p>This website was created using React using git to manage the website.</p>
-          {/* Add more projects as needed */}
         </section>
 
         <section id="Timeline">
