@@ -7,14 +7,14 @@ function App() {
       <aside id="border" className="border js-fullheight" style={{fontSize: '16px', top: 0, left: 0, position: 'fixed', backgroundColor: "#d4d4d4", height: "100vh", width: "15%" }}>
         <div className='centerImage' style={{ padding: "20px" }}>
           <img src= "logo512.png" className = "App-logo" alt="" style={{ height: "100px", filter: 'brightness(100%)' }} />
-          <h1>
+          <h1 style={{fontSize:"30px"}}>
             <p>
               Saaketh Sodanapalli
             </p>
           </h1>
           <div className="navBar">
             <nav>
-              <ul>
+              <ul style={{ listStyleType: 'none' , fontSize:"20px"}}>
                 <li>
                   <a href="#Introduction">Introduction</a>
                 </li>
@@ -45,9 +45,9 @@ function App() {
           </h1>
         </header>
 
-        <section id="Introduction" style={{  padding: "0px 100px 0px 100px" }}>
+        <section id="Introduction" style={{paddingBottom: '20px',  padding: "0px 100px 0px 100px" }}>
           <h1 style={{fontSize:"50px", textAlign:"left"}}> Introduction </h1>
-          <p className="text-content" id='test1'>
+          <p className="text-content">
             Hello and welcome to my website! My name is Saaketh Sodanapalli and I'm currently a sophomore at the University of Massachusetts Amherst majoring in Computer Engineering.
             Other than coding, I like to workout a lot and am currently a part of my universities club swim team as well as read books, ranging from self-improvement books to mystery.
             While I study computer engineering to gain knowledge on both the software and hardware aspects of computers, I am predisposed towards the software aspect of them, hoping
@@ -55,20 +55,25 @@ function App() {
           </p>
         </section>
 
-        <section id="Skills">
+        <section id="Skills" style={{marginBottom: '20px'}}>
           <h1>Skills</h1>
-          <ul>
+          <ul style={{ listStyleType: 'none' }}>
             <li>JavaScript</li>
             <li>React</li>
             <li>Python</li>
-            {/* Add more skills as needed */}
           </ul>
         </section>
 
         <section id="Projects">
           <h1>Projects</h1>
-          <p>Project 1: Description...</p>
-          <p>Project 2: Description...</p>
+            <h3>
+              Snake and Tetris
+            </h3>
+              <p> For my introduction to programming class, ECE 122, I was tasked with designing the games Snake and Tetris using python and tkinter to display the games</p>
+            <h3>
+              This website!
+            </h3>
+              <p>This website was created using React using git to manage the website.</p>
           {/* Add more projects as needed */}
         </section>
 
