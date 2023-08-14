@@ -1,6 +1,26 @@
+
+
 .App {
   text-align: center;
 }
+.nav_place{
+  margin-bottom: 10px;
+  color:black;
+}
+.container{
+  display: flex;
+}
+
+.nav_buttons {
+  color: #4D5032;
+  text-decoration: none;
+  margin-left: -25px;
+}
+.nav_buttons:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -8,16 +28,18 @@
 }
 body {
   overflow: auto;
-  height: 900vh;
-  padding: "0px 100px 0px 100px";
+  height: 400vh;
   font-family: "Lobster";
+  margin-bottom: 50px;
 }
-section {
+.sections1 {
   font-family:"Lobster";
+  margin-bottom:50px;
+  padding: 0px 75px 0px 75px;
 }
-.text-content {
-  font-family: 'Ariel';
-  font-size: "500px";
+.Header {
+  text-align:center;
+  font-size: calc(10px + 4vmin);
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -37,7 +59,7 @@ html {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(0, 0, 0);
+  color: #0000FF;
 }
 
 .App-link {
