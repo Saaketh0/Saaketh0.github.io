@@ -31,7 +31,7 @@ function App() {
       </aside>
 
       <main style = {{marginLeft:"15%"}}>
-        <header className="App-header" style={{ backgroundImage:"url(Images/marek-piwnicki-MHlLUVC90VY-unsplash.jpg)",padding:"0px",backgroundSize:"200px 100px"}}>
+        <header className="App-header" style={{ backgroundImage:"url(Images/eugene-golovesov-12-LhcMD2Hg-unsplash.jpg)",padding:"0px",backgroundSize:"cover"}}>
           <h1 style={{fontSize:'100px', font:"roboto" ,marginLeft:"-50%",textAlign:"left"}}>
             Hi!
             <br></br>
