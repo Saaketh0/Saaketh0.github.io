@@ -12,12 +12,12 @@
 }
 
 .nav_buttons {
-  color: #4D5032;
+  color: #ba9c86;
   text-decoration: none;
-  margin-left: -25px;
+  margin-left: -35px;
 }
 .nav_buttons:hover {
-  color: blue;
+  color: greenyellow;
   text-decoration: underline;
 }
 
@@ -31,15 +31,30 @@ body {
   height: 400vh;
   font-family: "Lobster";
   margin-bottom: 50px;
+  background-color: #FAF9F6;
 }
 .sections1 {
   font-family:"Lobster";
-  margin-bottom:50px;
+  margin-bottom:200px;
+  color:#0f4001;
   padding: 0px 75px 0px 75px;
+  font-size: 25px;
+  text-align: left;
+}
+.spec_button{
+  text-decoration: none;
+  font-size:25px;
+  color:#FAF9F6;
+  margin-left:-870px;
+  margin-top:-50px;
+  border:2px solid #FAF9F6;
+  padding:0px 10px 0px 10px;
+  background-color: transparent;
+  border-radius: 10px;   
 }
 .Header {
-  text-align:center;
-  font-size: calc(10px + 4vmin);
+  text-align:left;
+  font-size: 50px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -51,17 +66,17 @@ html {
 }
 
 .App-header {
-  background-color: #ebebeb;
-  min-height: 90vh;
+  background-color: #fffff4;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-family: 'Lobster';
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #0000FF;
+  font-size: calc(10px + 7vmin);
+  color: #fffff4;
+  margin-bottom: 200px;
 }
-
 .App-link {
   color: #61dafb;
 }

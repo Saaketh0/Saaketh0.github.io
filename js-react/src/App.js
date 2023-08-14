@@ -4,10 +4,10 @@ function App() {
 
   return (
     <div className="App">
-      <aside id="border" className="border js-fullheight" style={{fontSize: '16px', top: 0, left: 0, position: 'fixed', backgroundColor: "#f2f3f7", height: "100vh", width: "15%" }}>
+      <aside id="border" className="border js-fullheight" style={{fontSize: '16px', top: 0, left: 0, position: 'fixed', backgroundColor: "#1b130b", height: "100vh", width: "15%" }}>
         <div className='centerImage' style={{ padding: "20px" }}>
           <img src= "Images/logo512.png" className = "App-logo" alt="" style={{ height: "100px", filter: 'brightness(100%)' }} />
-          <h1 style={{fontSize:"30px"}}>
+          <h1 style={{fontSize:"30px",color:"#FAF9F6"}}>
             <p>
               Saaketh Sodanapalli
             </p>
@@ -30,22 +30,32 @@ function App() {
         </div>
       </aside>
 
-      <main style = {{marginLeft:"15%"}}>
-        <header className="App-header" style={{ backgroundImage:"url(Images/eugene-golovesov-12-LhcMD2Hg-unsplash.jpg)",padding:"0px",backgroundSize:"cover"}}>
-          <h1 style={{fontSize:'100px', font:"roboto" ,marginLeft:"-50%",textAlign:"left"}}>
+      <main style = {{marginLeft:"15%", backgroundColor:"#FAF9F6"}}>
+          <header className="App-header"
+          style={{
+            backgroundImage: 'url(Images/eugene-golovesov-12-LhcMD2Hg-unsplash.jpg)',
+            padding: '0px',
+            backgroundSize: 'cover',
+            backgroundAttachment: 'fixed', // This creates the parallax effect
+          }}>
+          <h1 style={{ fontSize: '100px', fontFamily: 'Roboto', marginLeft: '-40%', textAlign: 'left' }}>
             Hi!
-            <br></br>
+            <br />
             I'm Saaketh
           </h1>
+          <a className="spec_button" href={`${process.env.PUBLIC_URL}/Images/logo512.png`} target="_blank" rel="noopener noreferrer">
+              Resume Link
+          </a>
         </header>
 
         <section className='sections1' id="Introduction">
           <h1 className = "Header"> Introduction </h1>
-          <p className="text-content">
+          <p className="text-content" style={{ textIndent: '50px' }}>
             Hello and welcome to my website! My name is Saaketh Sodanapalli and I'm currently a sophomore at the University of Massachusetts Amherst majoring in Computer Engineering.
-            Other than coding, I like to workout a lot and am currently a part of my universities club swim team as well as read books, such as fantasy and mystery.
+          </p><p className="text-content" style={{ textIndent: '50px' }}>
+            Other than coding, I like to workout a lot and am currently a part of my universities club swim team, with me making club nationals last year! I also like to read books, ranging from a wide amount of genres, from thrillers to high-fantasy.
             While I study computer engineering to gain knowledge on both the software and hardware aspects of computers, I am predisposed towards the software aspect of them, hoping
-            expand my knowledge and skills solving real world problems.
+            expand my knowledge and hone my skills with real world projects.
           </p>
         </section>
         <section className='sections1' id="Projects">
