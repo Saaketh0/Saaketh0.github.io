@@ -21,7 +21,7 @@ function App() {
             src="Images/IMG_3723-removebg-preview.png"
             //className="App-logo"
             alt=""
-            style={{ height: "100px" }}
+            style={{ width: "190px", height: "190px" }}
           />
           <h1 style={{ fontSize: "30px", color: "#FAF9F6" }}>
             <p>Saaketh Sodanapalli</p>
@@ -75,7 +75,7 @@ function App() {
           </h1>
           <a
             className="spec_button"
-            href={`${process.env.PUBLIC_URL}/Images/logo512.png`}
+            href={`${process.env.PUBLIC_URL}/Images/Resume_pdf.pdf`}
             target="_blank"
             rel="noopener noreferrer"
           >
