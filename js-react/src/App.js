@@ -18,10 +18,10 @@ function App() {
       >
         <div className="centerImage" style={{ padding: "20px" }}>
           <img
-            src="Images/IMG-3723-removebg-preview.png"
+            src="Images/IMG_3723-removebg-preview.png"
             className="App-logo"
             alt=""
-            style={{ height: "100px", filter: "brightness(100%)" }}
+            style={{ height: "100px" }}
           />
           <h1 style={{ fontSize: "30px", color: "#FAF9F6" }}>
             <p>Saaketh Sodanapalli</p>
