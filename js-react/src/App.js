@@ -19,7 +19,7 @@ function App() {
         <div className="centerImage" style={{ padding: "20px" }}>
           <img
             src="Images/IMG_3723-removebg-preview.png"
-            className="App-logo"
+            //className="App-logo"
             alt=""
             style={{ height: "100px" }}
           />
